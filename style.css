@@ -1,0 +1,28 @@
+.body {
+  background-color: bisque;
+  width: 100%;
+}
+#add {
+  width: 20%;
+  background-color: beige;
+  position: relative;
+  left: 90%;
+  top: 20%;
+  border: none;
+}
+@media screen and (max-width: 460px) {
+  #add {
+    position: relative;
+    left: 2%;
+  }
+}
+#nav {
+  position: relative;
+  left: 40%;
+  font-size: 200%;
+  font-weight: bold;
+  color: rgb(56, 47, 215);
+}
+#mybtn {
+  background-color: cornsilk;
+}
